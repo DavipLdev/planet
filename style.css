@@ -61,7 +61,7 @@ nav{
 }
 nav li{
     list-style: none;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     display: flex;
     font-family: sans-serif;
     margin-left: 1rem;
