@@ -29,8 +29,6 @@ header{
     right: 0;
     top: 0;
     z-index: 10000;
-    color: white;
-   
     height: 10vh;
     display: flex;
     align-items: center;
@@ -63,7 +61,7 @@ nav{
 }
 nav li{
     list-style: none;
-    color: rgb(250, 250, 250);
+    color: rgb(255, 0, 0);
     display: flex;
     font-family: sans-serif;
     margin-left: 1rem;
