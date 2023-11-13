@@ -71,6 +71,9 @@ font-family: 'Poppins', sans-serif;
     margin-right: 1REM;
     font-size: 1.2rem;
 }
+.b{
+    border-bottom: 2px solid;
+}
 nav a{
     margin-right: 4REM;
     text-decoration: none;
