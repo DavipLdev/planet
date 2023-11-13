@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family= Islândia & family= Poppins:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@300;700&display=swap');
 html{
       scroll-behavior: smooth;
       background-color: black;
@@ -63,7 +65,8 @@ nav li{
     list-style: none;
     color: rgb(255, 255, 255);
     display: flex;
-    font-family: sans-serif;
+    font-family: 'Iceland', sans-serif;
+font-family: 'Poppins', sans-serif;
     margin-left: 1rem;
     margin-right: 1REM;
     font-size: 1.2rem;
@@ -106,6 +109,9 @@ margin-bottom: 3rem;
 }
 .text1 h2{
     color: rgb(177, 177, 177);
+    font-family: 'Iceland', sans-serif;
+     font-family: 'Poppins', sans-serif;
+     font-weight: bold;
 }
 .text1 h1{
     color: #7e8eddb4;
@@ -118,6 +124,8 @@ margin-bottom: 3rem;
     font-size: 1.2em;
     line-height: 2rem;
     color: rgb(214, 214, 214);
+    font-family: 'Iceland', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 .redes{
@@ -251,13 +259,15 @@ margin-bottom: 3rem;
  .nosso-servico li{
     /* border-bottom: 2px solid rgb(0, 79, 227); */
     padding-bottom: 0px;
+    
  } 
 .servico{
     margin-bottom: 7rem;
 }
 .servico li{
-    font-family: sans-serif;
-    font-size: 2rem;
+    font-family: 'Iceland', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
     line-height: 3.8rem;
 }
 .servico::before{
