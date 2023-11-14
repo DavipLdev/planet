@@ -322,7 +322,7 @@ font-family: 'Poppins', sans-serif;
 
 
 .sobre-planet{
-    background-image: url(img/Frame\ 4sobre\ a\ planet353.png);
+    /* background-image: url(img/Frame\ 4sobre\ a\ planet353.png); */
     max-width: 100%;
     height: 110vh;
     background-size: cover;
