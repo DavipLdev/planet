@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@300;700&display=swap');
 html{
       scroll-behavior: smooth;
-      background-color: black;
 }
 body{
+    background-color: rgb(41, 41, 41);
     margin: 0;
     padding: 0;
     border: 0;
