@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    background-image: url(img/Frame\ 4FUNDOOOOOOOOOOOOOOOOO.png);
+    /* background-image: url(img/Frame\ 4FUNDOOOOOOOOOOOOOOOOO.png); */
     max-width: 100%;
     height: 100vh;
     background-blend-mode: darken;
@@ -106,6 +106,7 @@ nav a:hover li{
     align-items: center;
  color: white;
  max-width: 85%;
+ gap: 7rem;
  margin: 7rem auto;
  font-family: sans-serif;
 margin-bottom: 3rem;
@@ -120,7 +121,7 @@ margin-bottom: 3rem;
     color: #7e8eddb4;
     font-size: 2.3em;
     margin-bottom: 6rem;
-    width: 76%;
+    width: 92%;
 }
 
 .text1 p{
@@ -158,6 +159,7 @@ font-family: 'Poppins', sans-serif;
 
 .img-direita img{
     animation: animaimg 2s ease-in-out infinite alternate-reverse;
+    width: 25rem;
 }
 
 @keyframes animaimg {
@@ -228,7 +230,7 @@ font-family: 'Poppins', sans-serif;
 
 
 .conteiner2{
-    background-image: url(img/Frame\ 4nosso\ serviço.png);
+    /* background-image: url(img/Frame\ 4nosso\ serviço.png); */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -270,7 +272,7 @@ font-family: 'Poppins', sans-serif;
 .servico li{
     font-family: 'Iceland', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     line-height: 3.8rem;
 }
 .servico::before{
