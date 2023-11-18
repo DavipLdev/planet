@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <header>
    
             <div class="logo">
@@ -35,7 +36,7 @@
 
     <!-- -----------------conteiner 1 (HOME)------------------------- -->
 
-
+    <div class="body">
     <section id="home" class="conteiner1">
            <div class="conteudo1">
              <div class="elemento-esquerda">
@@ -251,7 +252,7 @@
     
 
    </footer>
-
+</div>
 
 
 
@@ -262,23 +263,23 @@
         var $amburger = document.querySelector('.amburger')
         var $nav = document.querySelector('nav')
         var $pacotes = document.querySelector('.pacotes')
-
-
-        var myobserve = new IntersectionObserver( (entries) => {
-            console.log(entries)
-        })
-
-        myobserve.observe($pacotes)
-            
+                 
         
 
 
 
-
+         
         $amburger.addEventListener('click', function () {
             $amburger.classList.toggle('active')
             $nav.classList.toggle('active')
-        })                              
+         
+        })  
+        
+        var $section = document.querySelector('.body')
+
+        $amburger.addEventListener('click', function () {
+            $section.classList.toggle('preto')
+        })
 
     </script>
 </body>
